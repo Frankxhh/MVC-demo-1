@@ -1,0 +1,28 @@
+#app2 ul {
+    border: 1px solid red
+}
+
+#app2 .tab-bar {
+    display: flex;
+}
+
+#app2 .tab-bar li {
+    width: 50vw;
+    border: 1px solid black;
+}
+
+#app2 .tab-content {
+    height: 25vh;
+}
+
+#app2 .tab-bar .color {
+    background-color: cornflowerblue;
+}
+
+#app2 .tab-content li {
+    display: none;
+}
+
+#app2 .tab-content .active {
+    display: block;
+}

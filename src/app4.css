@@ -1,0 +1,19 @@
+#app4 .circle{
+    width: 12vw;
+    height: 12vw;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+#app4 .circle.active{
+    animation: change infinite 1.5s alternate;
+}
+@keyframes change {
+    0%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: darkcyan;
+    }
+}
